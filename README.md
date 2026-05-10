@@ -1,6 +1,5 @@
 # ai-gym-planner
 
-AI Gym Planner – Short Report
 AI Gym Planner is a smart mobile fitness application developed by the team FitTech Innovators. The
 project was created to provide users with a personalized and simple fitness experience using modern
 Android technologies and AI integration.
