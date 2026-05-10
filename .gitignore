@@ -1,15 +1,33 @@
+# Project-wide ignore rules
 *.iml
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+/.idea/
 .DS_Store
 /build
 /captures
 .externalNativeBuild
 .cxx
+
+# Keystores (CRITICAL: Never push your private signing keys)
+*.jks
+*.keystore
+*.p12
+
+# Firebase / Google Services
+# It is recommended to keep this private as it contains API keys.
+google-services.json
+
+# Local configurations
+# Often contains local SDK paths or sensitive tokens.
 local.properties
+
+# Log files
+*.log
+
+# Built artifacts
+*.apk
+*.aar
+*.jar
+/app/build/
+app/google-services.json
